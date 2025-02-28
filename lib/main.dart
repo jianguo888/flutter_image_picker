@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:image_picker/image_picker.dart';
 
 void main() {
@@ -111,7 +112,11 @@ class ImageFromGalleryExState extends State<ImageFromGalleryEx> {
                     imageQuality: 50,
                     preferredCameraDevice: CameraDevice.front);
                 setState(() {
-                  _image = File(image.path);
+                  if (kIsWeb) {
+                    _image = image.path;
+                  } else {
+                    _image = File(image.path);
+                  }
                 });
               },
               child: Container(
@@ -119,12 +124,19 @@ class ImageFromGalleryExState extends State<ImageFromGalleryEx> {
                 height: 200,
                 decoration: BoxDecoration(color: Colors.red[200]),
                 child: _image != null
-                    ? Image.file(
-                        _image,
-                        width: 200.0,
-                        height: 200.0,
-                        fit: BoxFit.fitHeight,
-                      )
+                    ? kIsWeb
+                        ? Image.network(
+                            _image,
+                            width: 200.0,
+                            height: 200.0,
+                            fit: BoxFit.fitHeight,
+                          )
+                        : Image.file(
+                            _image,
+                            width: 200.0,
+                            height: 200.0,
+                            fit: BoxFit.fitHeight,
+                          )
                     : Container(
                         decoration: BoxDecoration(color: Colors.red[200]),
                         width: 200,
