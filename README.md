@@ -25,10 +25,23 @@ dependencies:
   image_picker: ^0.8.4+4
 ```
 
-## License
+如果没有使用 FVM，则直接编辑 pubspec_overrides.yaml 文件，没有则手动创建，添加以下内容：
+# 鸿蒙适配
+dependency_overrides:
+  image_picker:
+    git:
+      url: https://gitcode.com/openharmony-sig/flutter_packages.git
+      path: "packages/ image_picker/image_picker"
 
 
 
 flutter create . --platforms=macos
 
 flutter run -d macos
+
+
+https://gitcode.com/openharmony-sig/flutter_packages/blob/master/packages/image_picker/image_picker_ohos/example/lib/main.dart
+
+## 致谢
+
+特别感谢俊伟在本项目开发过程中提供的宝贵支持和技术指导。他的专业知识和热心帮助对项目的顺利完成起到了重要作用。

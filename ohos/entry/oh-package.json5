@@ -5,5 +5,7 @@
   "main": "",
   "author": "",
   "license": "",
-  "dependencies": {}
+  "dependencies": {
+    "image_picker_ohos": "file:../har/image_picker_ohos.har"
+  }
 }

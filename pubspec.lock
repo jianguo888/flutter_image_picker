@@ -147,11 +147,12 @@ packages:
   image_picker:
     dependency: "direct main"
     description:
-      name: image_picker
-      sha256: "021834d9c0c3de46bf0fe40341fa07168407f694d9b2bb18d532dc1261867f7a"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "1.1.2"
+      path: "packages/image_picker/image_picker"
+      ref: HEAD
+      resolved-ref: "306b96d078c70a430ba588af1f345a82f1ba347b"
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
+    source: git
+    version: "1.0.2"
   image_picker_android:
     dependency: transitive
     description:
@@ -192,6 +193,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.2.1+2"
+  image_picker_ohos:
+    dependency: transitive
+    description:
+      path: "packages/image_picker/image_picker_ohos"
+      ref: HEAD
+      resolved-ref: "306b96d078c70a430ba588af1f345a82f1ba347b"
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
+    source: git
+    version: "0.8.7+4"
   image_picker_platform_interface:
     dependency: transitive
     description:
