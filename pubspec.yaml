@@ -1,5 +1,5 @@
-name: flutter_image_picker
-description: A new Flutter project.
+name: pic_studio
+description: 一款功能强大的图片创作助手，支持多平台图片选择、专业编辑和社交分享。
 
 publish_to: "none"
 

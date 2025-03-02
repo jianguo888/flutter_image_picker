@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'PicStudio',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.indigo,
         scaffoldBackgroundColor: Colors.white,
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.white,
@@ -345,7 +345,10 @@ class ImageFromGalleryExState extends State<ImageFromGalleryEx> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(type == ImageSourceType.camera ? "拍摄照片" : "从相册选择"),
+        title: Text(
+          "PicStudio",
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
         actions: [
           if (_images.isNotEmpty)
             TextButton(
@@ -353,7 +356,7 @@ class ImageFromGalleryExState extends State<ImageFromGalleryEx> {
               child: Container(
                 padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 decoration: BoxDecoration(
-                  color: Colors.green,
+                  color: Colors.indigo,
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text('下一步', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),

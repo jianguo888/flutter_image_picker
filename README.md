@@ -1,16 +1,21 @@
-# Flutter Image Picker 示例项目
+# PicStudio - 专业图片创作助手
 
-这是一个示例 Flutter 应用程序，用于演示如何使用 `image_picker` 包实现图片选择功能。该项目支持 iOS、Android、Web、macOS 和鸿蒙等多个平台，可以从相册中选取图像或使用相机拍摄新照片。
+PicStudio 是一款功能强大的图片创作助手，支持多平台图片选择、专业编辑和社交分享。该项目基于 Flutter 开发，支持 iOS、Android、Web、macOS 和鸿蒙等多个平台，为用户提供全方位的图片处理解决方案。
 
 ## 功能特点
 
-- 从相册中选取图像
-- 使用相机拍摄新照片
-- 支持多平台（iOS、Android、Web、macOS、鸿蒙）
-- 简单易用的API接口
+- 多平台图片选择（相册选取/相机拍摄）
+- 全平台支持（iOS、Android、Web、macOS、鸿蒙）
+- 专业图片编辑套件
+  - 亮度、对比度、饱和度调节
+  - 色温和锐度精确控制
+  - 实时预览效果
+- 智能标签系统
+  - 预设平台标签（Android、iOS等）
+  - 主题标签（摄影、风景等）
+  - 自定义标签支持
 - 九宫格图片展示
-- 专业的图片编辑功能（亮度、对比度、饱和度、色温、锐度调节）
-- 智能标签系统（支持预设平台标签和自定义标签）
+- 社交分享功能
 
 ## 环境要求
 
@@ -141,8 +146,6 @@ Navigator.push(
 // - 支持标签删除和管理
 ```
 
-更多示例代码可以参考：[鸿蒙示例代码](https://gitcode.com/openharmony-sig/flutter_packages/blob/master/packages/image_picker/image_picker_ohos/example/lib/main.dart)
-
 ## 运行项目
 
 1. iOS/Android:
@@ -165,15 +168,11 @@ flutter run -d chrome
 - [image_picker 插件文档](https://pub.flutter-io.cn/packages/image_picker)
 - [Flutter 官方文档](https://flutter.dev/docs)
 
-## 致谢
-
-特别感谢俊伟在本项目开发过程中提供的宝贵支持和技术指导。他的专业知识和热心帮助对项目的顺利完成起到了重要作用。
-
 ## 版权信息
+
+© 2024 坚果派. 保留所有权利。
 
 - 作者：坚果派
 - 公众号：nutpi
 - 联系电话：17752170152
 - 官方网站：https://www.nutpi.net/
-
-© 2024 坚果派. 保留所有权利。
