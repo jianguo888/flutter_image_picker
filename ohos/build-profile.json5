@@ -6,9 +6,9 @@
         "type": "HarmonyOS",
         "material": {
           "certpath": "/Users/jianguo/.ohos/config/default_ohos_OaltLXUbivpLoDoh7_KhBle6zDjta9zQOCpTvU1ABHo=.cer",
-          "storePassword": "0000001A62E40B679A86A7D2ED72FE7E302FCE84B7582B9FE162F4E48E415559D1E9281298818E630CF7",
+          "storePassword": "0000001A2018EEB2B2C8CCEE1E9D4A58F742E1106C17C8D979BFC5A13133E566EAB6A2250BBAF35FFAF5",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001A56C383B8587B3005AD1ED9BC3C308F09A71DC858CDEEFAFCB942D3A0A0D25EAB9DE5EBDA4B90",
+          "keyPassword": "0000001A1DE851426B99CEE0332745C0D1EC8003557041F8C11FD5571E02358E4ACE9BC74E029263FBC9",
           "profile": "/Users/jianguo/.ohos/config/default_ohos_OaltLXUbivpLoDoh7_KhBle6zDjta9zQOCpTvU1ABHo=.p7b",
           "signAlg": "SHA256withECDSA",
           "storeFile": "/Users/jianguo/.ohos/config/default_ohos_OaltLXUbivpLoDoh7_KhBle6zDjta9zQOCpTvU1ABHo=.p12"
