@@ -22,6 +22,10 @@ PicStudio 是一款功能强大的图片创作助手，支持多平台图片选�
 - Flutter SDK: >=3.0.0 <4.0.0
 - Dart SDK: >=3.0.0
 
+## 预览效果
+
+![image-20250302182910411](/Users/jianguo/Library/Application Support/typora-user-images/image-20250302182910411.png)
+
 ## 安装配置
 
 1. 将以下依赖添加到项目的 `pubspec.yaml` 文件中：
